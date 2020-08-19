@@ -221,7 +221,7 @@ class MobileAddressBalanceNotifier {
     }
 
     subscribeRemoteQtumRoom() {
-        this.socketClient.emit('subscribe', 'qtum');
+        this.socketClient.emit('subscribe', 'cico');
     }
 
     /**
